@@ -1,0 +1,84 @@
+/* Styling for the header */
+header {
+  display: flex;
+  justify-content: center; /* Center align content horizontally */
+  align-items: center; /* Center align content vertically */
+  height: 200px; /* Set the height of the header */
+  background-color: #f0f0f0; /* Background color for the header */
+}
+
+header h1 {
+  font-size: 3em; /* Font size for the main title */
+  text-align: center; /* Center align the text */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Color for the title text */
+  font-family: Arial, sans-serif; /* Font family for the title */
+}
+
+/* Styling for main content sections */
+main section {
+  margin: 20px; /* Add margin around sections */
+  padding: 20px; /* Add padding inside sections */
+  border: 1px solid #ddd; /* Add border around sections */
+  border-radius: 8px; /* Rounded corners for sections */
+  background-color: #fafafa; /* Background color for sections */
+}
+
+main h2 {
+  font-size: 2em; /* Font size for subsection titles */
+  color: #007BFF; /* Bright color for subsection titles */
+  font-weight: bold; /* Make subsection titles bold */
+  border-bottom: 2px solid #007BFF; /* Add underline to subsection titles */
+  padding-bottom: 10px; /* Add space below the title */
+  margin-bottom: 20px; /* Add space below the title */
+}
+
+/* Styling for paragraphs */
+main p {
+  font-size: 1.2em; /* Larger font size for paragraphs */
+  line-height: 1.6; /* Increase line height for better readability */
+  color: #333; /* Color for paragraph text */
+  font-family: Georgia, serif; /* Font family for paragraph text */
+}
+
+/* Styling for the image gallery */
+.image-gallery {
+  display: flex;
+  gap: 10px; /* Space between images */
+  justify-content: center; /* Center align images horizontally */
+  margin-top: 20px; /* Space above the gallery */
+}
+
+.image-gallery img {
+  width: 300px; /* Width of each image */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ddd; /* Border around images */
+  border-radius: 8px; /* Rounded corners for images */
+  object-fit: cover; /* Cover the image area */
+}
+
+/* Styling for links */
+a {
+  color: #007BFF; /* Color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #0056b3; /* Darker color on hover */
+}
+
+/* Styling for the footer */
+footer {
+  text-align: center; /* Center align text in the footer */
+  padding: 10px; /* Add padding around footer text */
+  background-color: #f0f0f0; /* Background color for the footer */
+  border-top: 1px solid #ddd; /* Add border on top of the footer */
+}
+
+footer p {
+  margin: 0; /* Remove default margin from footer text */
+  color: #333; /* Color for footer text */
+  font-family: Arial, sans-serif; /* Font family for footer text */
+}
